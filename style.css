@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  color: white;
+  margin: 0;
+}
+body a {
+  color: white;
+}
+
+.with {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: black;
+  padding: 20px;
+}
+.header .centr {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header .centr a {
+  text-decoration: none;
+}
+.header .left {
+  display: flex;
+}
+.header .left .sircle {
+  display: flex;
+  align-items: center;
+}
+.header .left .sircle .sirclee {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.header .left .sircle .right-sircle {
+  background-color: gray;
+  transform: translateX(-50%);
+}
+.header .right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header .right svg {
+  border-style: solid;
+  padding: 5px;
+  border-radius: 4px;
+}
+.header .right .reg {
+  border-style: solid;
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.header .right .register {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 9px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.gray {
+  background-color: gray;
+  position: relative;
+  z-index: 99;
+}
+
+.section-two {
+  display: flex;
+  gap: 100px;
+  padding-top: 20px;
+}
+.section-two .big-text {
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.section-two .choose {
+  margin-bottom: 20px;
+}
+.section-two hr {
+  background-color: white;
+  height: 5px;
+  margin-bottom: 100px;
+  border-style: none;
+  width: 40%;
+  margin-top: 20px;
+}
+.section-two .button-text {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.section-two button {
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  border-style: solid;
+}
+
+.white-blok {
+  background-color: white;
+  padding: 70px;
+  text-align: center;
+  position: relative;
+}
+.white-blok .sircl {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+.white-blok .sirc {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+}
+.white-blok p {
+  color: black;
+  font-size: 40px;
+}
+.white-blok button {
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.section-tree {
+  position: relative;
+  z-index: 1;
+  padding: 36px;
+  background-color: gray;
+}
+.section-tree .mec {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-tree .nkar {
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+}
+.section-tree .just {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.section-tree p {
+  text-align: center;
+  color: black;
+}
+.section-tree .imges {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+.section-tree button {
+  background-color: black;
+  color: white;
+  border-style: none;
+  padding: 10px 20px;
+  margin: 10px;
+}
+.section-tree .point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+  gap: 6px;
+  padding: 10px;
+  background-color: gray;
+}
+.section-tree .point .points {
+  padding: 4px;
+  border-radius: 50%;
+  width: 2px;
+  height: 2px;
+  background-color: white;
+}
+.section-tree .point .poin {
+  background-color: white;
+  padding: 6px;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+}
+
+.next-white {
+  background-color: white;
+  gap: 20px;
+}
+.next-white .gago {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 60px;
+}
+.next-white p {
+  color: black;
+  margin: 10px;
+}
+.next-white .blok-3 {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+}
+.next-white .text-1 {
+  font-size: 20px;
+  color: black;
+}
+
+.bloke {
+  background-color: black;
+  padding: 50px;
+}
+.bloke .blo {
+  background-image: url("/img/img2.png");
+  width: 270px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 10px;
+}
+.bloke .flex {
+  display: flex;
+  gap: 20px;
+}
+.bloke button {
+  color: white;
+  background-color: transparent;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-radius: 18px;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 6px;
+  margin: 4px;
+}
+.bloke p {
+  color: white;
+  margin: 4px;
+}
+.bloke .text-in {
+  font-size: 20px;
+  text-align: left;
+  margin: 10px;
+}
+.bloke .text-start {
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.white-2 {
+  background-color: white;
+}
+.white-2 .text-b {
+  color: black;
+  font-size: 36px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.white-2 .p {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.white-2 .white-5 {
+  display: flex;
+  justify-content: space-between;
+}
+.white-2 .white-4 {
+  background-image: url("/img/img8.png");
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.white-2 .white-8 {
+  display: flex;
+}
+.white-2 .white-3 {
+  background-image: url("/img/img7.png");
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.white-2 .white-7 {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.white-2 .but {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.white-2 .but button {
+  margin: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  background-color: white;
+  cursor: pointer;
+}
+
+.black-1 {
+  display: flex;
+  background-color: black;
+}
+.black-1 .black-2 {
+  margin: 40px;
+}
+.black-1 .black-3 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.black-1 .black-3 p {
+  font-size: 36px;
+}
+.black-1 .black-3 button {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+}
+
+.last-1 {
+  background-color: white;
+}
+.last-1 .last-2 {
+  text-align: center;
+  font-size: 36px;
+  padding: 20px;
+}
+.last-1 .last-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.last-1 .last-4 {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 40px 80px;
+  margin: 20px;
+}
+.last-1 p {
+  color: black;
+}
+.last-1 .text-int {
+  font-size: 20px;
+  margin: 10px;
+}
+.last-1 .arrows {
+  border-radius: 50%;
+  background-color: black;
+  min-width: 40px;
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.finish {
+  background-color: black;
+}
+.finish p {
+  margin: 8px 0;
+}
+.finish .last-page {
+  background-color: black;
+  display: flex;
+  padding: 20px;
+  margin: 30px;
+  justify-content: left;
+  max-width: 1200px;
+}
+.finish .last-page .sircle {
+  display: flex;
+  justify-content: left;
+}
+.finish .last-page .sircle .sirclee {
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.finish .last-page .sircle .right-sircle {
+  background-color: gray;
+  transform: translateX(-50%);
+}
+
+.last-all {
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  grid-template-columns: 3fr 2fr 1fr;
+  display: grid;
+  text-align: left;
+  gap: 20px;
+}
+.last-all .capital {
+  font-size: 24px;
+}
+
+.last-right {
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+
+.large-text {
+  font-size: 14px;
+}
+
+.last-left {
+  font-size: 12px;
+}
+
+.last-think {
+  display: flex;
+  gap: 40px;
+  margin: 10px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
